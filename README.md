@@ -1,3 +1,7 @@
+[![Ask Me Anything !](https://img.shields.io/badge/Ask%20me-anything-1abc9c.svg)](https://github.com/FernandezGFG)
+[![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/FernandezGFG/Unitlab-RoboticsAR/blob/master/LICENSE)
+[![Github Releases (by Release)](https://img.shields.io/github/downloads/Naereen/StrapDown.js/v1.0.0/total.svg)](https://github.com/FernandezGFG/Unitlab-RoboticsAR/releases)
+
 # Realidad Aumentada en Herramientas de Robótica
 El proyecto consiste en una aplicación educativa de realidad aumentada para dispositivos móviles con sistema operativo Android, que se comunicac mediante protocolo TCP/IP con un programa desarrollado por el usuario en su computador con MATLAB, utilizando el toolbox *Robotics, Vision & Control* desarrollado por Peter Corke. El objetivo de la aplicación es la simulación, es un entorno de realidad aumentada, de los robots manipuladores serie estudiados en las cátedras vinculadas a la robótica.
 
