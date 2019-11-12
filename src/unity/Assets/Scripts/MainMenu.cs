@@ -23,6 +23,8 @@ public class MainMenu : MonoBehaviour {
         connectionToggle = GameObject.Find("EnableConnection");
         inputIP = GameObject.Find("InputIP");
         inputPort = GameObject.Find("InputPort");
+
+        AppData.setSceneToLoad(2);
     }
 
     public void EnableConnection(){
@@ -51,6 +53,7 @@ public class MainMenu : MonoBehaviour {
     }
 
     public void PlayScene(){
+        Debug.Log("Starting Loading Scene");
         sceneTransition.GetComponent<SceneTransition>().LoadScene(0);
     }
 
