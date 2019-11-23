@@ -2,8 +2,13 @@
 [![GPLv3 license](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://github.com/FernandezGFG/Unitlab-RoboticsAR/blob/master/LICENSE)
 [![Github Releases (by Release)](https://img.shields.io/github/downloads/Naereen/StrapDown.js/v1.0.0/total.svg)](https://github.com/FernandezGFG/Unitlab-RoboticsAR/releases)
 
+![Demo de la aplicación en YouTube](https://youtu.be/yapi3V-RTgs)
+
 # Realidad Aumentada en Herramientas de Robótica
-El proyecto consiste en una aplicación educativa de realidad aumentada para dispositivos móviles con sistema operativo Android, que se comunicac mediante protocolo TCP/IP con un programa desarrollado por el usuario en su computador con MATLAB, utilizando el toolbox *Robotics, Vision & Control* desarrollado por Peter Corke. El objetivo de la aplicación es la simulación, es un entorno de realidad aumentada, de los robots manipuladores serie estudiados en las cátedras vinculadas a la robótica.
+
+El proyecto consiste en una aplicación educativa de realidad aumentada para dispositivos móviles con sistema operativo Android, que se comunica mediante protocolo TCP/IP con un programa desarrollado por el usuario en su computador con MATLAB, utilizando el toolbox *Robotics, Vision & Control* desarrollado por Peter Corke. El objetivo de la aplicación es la simulación, es un entorno de realidad aumentada, de los robots manipuladores serie estudiados en las cátedras vinculadas a la robótica.
+
+![](imgs/main_menu.png)
 
 ## Modo de uso de la Aplicación Móvil para Establecer la Comunicación con MATLAB
 El modo en que el usuario debe usar la aplicación móvil para efectuar exitosamente la simulación con datos de su programa en MATLAB es el siguiente:
@@ -16,6 +21,11 @@ El modo en que el usuario debe usar la aplicación móvil para efectuar exitosam
 6. Proceder a la escena con la cámara de Vuforia presionando en la aplicación el botón *Start*.
 7. Apuntar al target impreso, donde aparecerá el modelo 3D del robot en realidad aumentada.
 8. Ejecutar el programa en MATLAB para que envíe la secuencia de configuraciones articulares. El robot en la aplicación móvil debería moverse si la conexión fue exitosa.
+
+
+Modo manual               |  Conexión con MATLAB via TCP/IP
+:-------------------------:|:-------------------------:
+![](imgs/manual_mode.png)  |  ![](imgs/matlab_mode.png)
 
 ## Trabajo a Futuro
 Dadas las limitaciones del tiempo del trabajo quedan aspectos que se desearía continuar desarrollando. Algunos de estos aspectos son:
