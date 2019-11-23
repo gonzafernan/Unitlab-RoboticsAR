@@ -14,7 +14,7 @@ classdef UnityLink < SerialLink
         %SerialLink Creat a UnityLink robot object
             
             % default properties
-            default.ip = '172.23.48.46';
+            default.ip = '192.168.0.10';
             default.port = 8888;
             default.timeout = 30;
             

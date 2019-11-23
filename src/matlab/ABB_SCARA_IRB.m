@@ -1,5 +1,4 @@
-clc;
-clear all;
+clc; clear all;
 
 a1 = 0.2;
 a2 = 0.25;
@@ -36,7 +35,7 @@ for i=1:length(q1)
     %R.plot([q1(i) 0 0 0]);
     R.sendQ([q1(i) 0 0 0]);
 end
-pause();
+
 for i=1:length(q2)
     %R.plot([q1(i) 0 0 0]);
     R.sendQ([0 q2(i) 0 0]);
