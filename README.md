@@ -27,6 +27,11 @@ Modo manual               |  Conexión con MATLAB via TCP/IP
 :-------------------------:|:-------------------------:
 ![](imgs/manual_mode.png)  |  ![](imgs/matlab_mode.png)
 
+### Target
+Para utilizar la aplicación es necesario poseer (generalmente impreso) el *target* que se encuentra en [target.jpg](target.jpg).
+
+![](target.jpg)
+
 ## Trabajo a Futuro
 Dadas las limitaciones del tiempo del trabajo quedan aspectos que se desearía continuar desarrollando. Algunos de estos aspectos son:
 
